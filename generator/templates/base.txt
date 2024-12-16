@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{page_title}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+    <!-- ナビバー -->
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <h1 class="navbar-item is-size-4 has-text-weight-bold">
+                サンプルサイト
+            </h1>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <!-- パンくずリスト -->
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="#">TOP</a></li>
+                    <li><a href="#">動画一覧</a></li>
+                    <li class="is-active"><a href="#" aria-current="page">{page_title}</a></li>
+                </ul>
+            </nav>
+
+            <!-- サブタイトル -->
+            <h2 class="title is-2">{page_title}</h2>
+
+            <!-- 動画 -->
+            <div class="box">
+                <video controls width="100%">
+                    <source src="{movie_url}" type="video/mp4">
+                    お使いのブラウザは動画タグをサポートしていません。
+                </video>
+            </div>
+
+            <!-- 概要・補足説明 -->
+            <div class="content">
+                {detail_text}
+            </div>
+
+            <!-- 戻る/次へボタン -->
+            <div class="buttons">
+                {previous_page_url}
+                {next_page_url}
+            </div>
+        </div>
+    </section>
+</body>
+</html>

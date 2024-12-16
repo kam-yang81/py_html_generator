@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+
+# macOS + PyCharm
+.DS_Store
+.idea/
+
+#vscode
+.vscode/
+
+# Environments
+.env
+venv/
+
+#db
+*.sqlite3
+
+config/settings.py
+
+#media files
+media/
+media_test_dir/
+
+#coverage
+htmlcov/
+.coverage
+
+#memo
+generator/templates/memo.txt
