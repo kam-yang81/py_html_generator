@@ -7,7 +7,7 @@ from pathlib import Path
 current_dir = Path(__file__).parent
 
 dest_dir = current_dir / 'results'
-template_path = current_dir / 'templates' / 'base2.txt'
+template_path = current_dir / 'templates' / 'base_bootstrap.txt'
 
 def generate_html_file(
         file_name: str,
