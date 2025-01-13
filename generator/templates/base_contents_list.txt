@@ -1,0 +1,12 @@
+
+            <div class="row contents">
+                <div class="col-3">
+                    <img src="{thumbnail}" class="img-fluid" alt="image">
+                </div>
+                <div class="col-9">
+                    <a href="{file_name}.html"><h3>{page_title}</h3></a>
+                    <ul class="list-inline">
+                        <li class="list-inline-item btn btn-primary btn-sm">タグ1</li>
+                    </ul>
+                </div>
+            </div>

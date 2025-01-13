@@ -1,0 +1,26 @@
+{
+  "movie001": {
+    "page_title": "ページ1",
+    "movie_url": "movie001.mp4",
+    "detail_text_file": "movie001_detail.txt",
+    "previous_url": null,
+    "next_url": "movie002.html",
+    "thumbnail": "image001.png"
+  },
+  "movie002": {
+    "page_title": "ページ2",
+    "movie_url": "movie002.mp4",
+    "detail_text_file": "movie002_detail.txt",
+    "previous_url": "movie001.html",
+    "next_url": "movie003.html",
+    "thumbnail": "image002.png"
+  },
+  "movie003": {
+    "page_title": "ページ3",
+    "movie_url": "movie003.mp4",
+    "detail_text_file": "movie003_detail.txt",
+    "previous_url": "movie002.html",
+    "next_url": null,
+    "thumbnail": "image003.png"
+  }
+}

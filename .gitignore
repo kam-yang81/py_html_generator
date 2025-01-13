@@ -25,5 +25,7 @@ media_test_dir/
 htmlcov/
 .coverage
 
-#memo
-generator/templates/memo.txt
+#my_ignore
+generator/templates/old/
+generator/bk/
+
